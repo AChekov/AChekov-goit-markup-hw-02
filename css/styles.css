@@ -3,7 +3,9 @@
   --second-font: "Raleway", sans-serif;
   --main-color: #ffffff;
   --second-color: #2196f3;
+  --bottom-background: #188ce8;
   --text-color: #212121;
+  --second-text-color: #757575;
   --background: #E5E5E5;
   --second-background: #2F303A;
   --team-background: #F5F4FA;
@@ -70,7 +72,7 @@
   font-size: 14px;
   line-height: 1.143em;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--second-text-color);
 }
 .tel-link:focus,
 .tel-link:hover,
@@ -110,7 +112,7 @@
 }
 .hero-button:hover ,
 .hero-button:focus {
-  background-color: #188ce8;
+  background-color: var(--bottom-background);
 }
 /* ==========END HERO========== */
 /* ==========ADVANTAGES========== */
@@ -126,7 +128,7 @@
   font-size: 14px;
   line-height: 1.714em;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--second-text-color);
 }
 /* ==========END ADVANTAGES========== */
 /* ==========WE DOING========== */
@@ -148,7 +150,7 @@
   font-size: 16px;
   line-height: 1.187em;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--second-text-color);
 }
 /* ==========END TEAM==========*/
 .title {
@@ -156,7 +158,7 @@
   font-size: 36px;
   line-height: 1.166em;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--text-color);
 }
 /* ==========FOOTER==========*/
 .footer {
@@ -192,7 +194,7 @@
   line-height: 1.625em;
   letter-spacing: 0.03em;
   cursor: pointer;
-  background-color: #F5F4FA;
+  background-color: var(--team-background);
   color: var(--text-color);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   border-radius: 4px;
@@ -215,5 +217,5 @@
   font-size: 16px;
   line-height: 1.875em;
   letter-spacing: 0.03em;
-  color: #757575; 
+  color: var(--second-text-color); 
 }
